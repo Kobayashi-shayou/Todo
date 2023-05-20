@@ -1,5 +1,15 @@
 ## 手順書
 
+#### 他のディレクトリをコピーしてディレクトリを作成した場合
+
+Gitは`.git`に全てデータが入っているので下記のコマンドで削除する
+
+```
+rm -rf .git
+```
+
+その後、リポジトリーを作成し、`git init`からのコマンドを実行する
+
 #### git clone でインストール
 
 ```
@@ -49,5 +59,3 @@ composer require --working-dir=tools/php-cs-fixer friendsofphp/php-cs-fixer
 ./tools/php-cs-fixer/vendor/bin/php-cs-fixer fix -v --diff
 ````
 
-# Bookings
-# Todo
